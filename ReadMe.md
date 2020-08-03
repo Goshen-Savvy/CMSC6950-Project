@@ -1,4 +1,4 @@
-# Project Name
+## Project Title
 [Autorank - A third-party package in python](https://www.kaggle.com/janiobachmann/bank-marketing-dataset)
 
 ## Project Scope
@@ -70,8 +70,6 @@ Run
 $ make
 #To removing all the downloaded data and complied files
 $ make clean
-To run the test case. If there is no reply, that means success.
-$ make test
 #To generate files by file name (Ex. report.pdf).
 $ make report.pdf
 ```
