@@ -39,7 +39,7 @@ $ pip install kaggle
 * missingno
 
 ### Unforseen Technical Issues
-'''
+
 * To download datasets from kaggle using wget or curl:
     * Create an account on kaggle
     * Go to <b>my account</b> and download the kaggle's API
@@ -49,7 +49,7 @@ $ pip install kaggle
     * $ unzip bank-marketing-dataset.zip
     * $ rm bank-marketing-dataset.zip 
 
-'''
+
 ## Work-Flow
 ### Create the local repository
 
@@ -58,7 +58,7 @@ $ cd desktop
 $ mkdir folderName
 $ git init
 $ git remote add origin 
-    https://github.com/Goshen-Savvy/CMSC6950-Project-Predicting-Bank-Deposit-from-Clients-using-Machine-Learning.git
+    https://github.com/Goshen-Savvy/CMSC6950-Analyzing-Autorank.git
 $ git pull
 ```
 ### Create your branch
