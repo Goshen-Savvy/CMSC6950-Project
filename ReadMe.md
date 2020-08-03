@@ -15,17 +15,19 @@ Project was created with the following:
 
 ## Dependencies
 ### Installation
-To run this project, install the following locally using pip or pip3:
-* pip3 install requirements.txt
+To run this project, install the following:
+* python dependencies:
+    * pip3 install requirements.txt
+* linux dependencies
+    * sudo apt install texlive-latex-base
+
 
 ### Python Packages
 * Pandas
 * Numpy
 * Seaborn	
 * Matplotlib
-* Wget
 * autorank
-* missingno
 
 ### Unforseen Technical Issues
 
@@ -34,9 +36,9 @@ To run this project, install the following locally using pip or pip3:
     * Go to <b>my account</b> and download the kaggle's API
     * From the terminal copy or move the API (kaggle.json) in the download directory to the home directory
         * home directory -> .kaggle -> kaggle.json file
-    * $ kaggle datasets download janiobachmann/bank-marketing-dataset
-    * $ unzip bank-marketing-dataset.zip
-    * $ rm bank-marketing-dataset.zip 
+            * $ kaggle datasets download janiobachmann/bank-marketing-dataset
+            * $ unzip bank-marketing-dataset.zip
+            * $ rm bank-marketing-dataset.zip 
 
 
 ## Work-Flow

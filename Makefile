@@ -1,4 +1,4 @@
-report.pdf:	report.tex mean.png stat_auto_rank.png
+report.pdf:	report/report.tex mean.png stat_auto_rank.png
 	pdflatex	$<
 
 #Statistics
