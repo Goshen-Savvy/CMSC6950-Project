@@ -17,9 +17,13 @@ Project was created with the following:
 ### Installation
 To run this project, install the following:
 * python dependencies:
+    ```
     * pip3 install requirements.txt
+    ```
 * linux dependencies
+    ```
     * sudo apt install texlive-latex-base
+    ```
 
 
 ### Python Packages
@@ -51,7 +55,7 @@ $ git init
 $ git clone https://github.com/Goshen-Savvy/CMSC6950-Analyzing-Autorank.git
 $ git pull
 ```
-### Create your branch
+### Execute the project
 
 ```
 Run
