@@ -9,10 +9,11 @@ The ease of reproducing the project.
 
 ## Technologies
 Project was created with the following:
+```
 * Python version: 3.8.2
 * GNU nano version: 4.8
 * Pip version: 20.0.2
-
+```
 ## Dependencies
 ### Installation
 To run this project, install the following:
@@ -27,14 +28,16 @@ To run this project, install the following:
 
 
 ### Python Packages
+```
 * Pandas
 * Numpy
 * Seaborn	
 * Matplotlib
 * autorank
+```
 
 ### Unforseen Technical Issues
-
+```
 * To download datasets from kaggle using wget or curl:
     * Create an account on kaggle
     * Go to <b>my account</b> and download the kaggle's API
@@ -43,7 +46,7 @@ To run this project, install the following:
             * $ kaggle datasets download janiobachmann/bank-marketing-dataset
             * $ unzip bank-marketing-dataset.zip
             * $ rm bank-marketing-dataset.zip 
-
+```
 
 ## Work-Flow
 ### Create the local repository
