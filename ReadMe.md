@@ -1,5 +1,5 @@
 ## Project Title
-[Autorank - A third-party package in python](https://www.kaggle.com/janiobachmann/bank-marketing-dataset)
+[Autorank - A third-party package in python](https://pypi.org/project/autorank/#description)
 
 ## Project Scope
 The project is focused on reproducing the implementation of autorank.
