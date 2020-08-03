@@ -16,19 +16,8 @@ Project was created with the following:
 ## Dependencies
 ### Installation
 To run this project, install the following locally using pip or pip3:
+ pip3 install requirements.txt
 
-```
-$ pip install pandas
-$ pip install numpy
-$ pip install matplotlib
-$ pip install wget 
-$ pip install autorank
-$ pip install missingno
-$ pip install pycm
-$ pip install seaborn
-$ pip install kaggle
-
-```
 ### Python Packages
 * Pandas
 * Numpy
@@ -54,10 +43,10 @@ $ pip install kaggle
 ### Create the local repository
 
 ```
-$ cd desktop
+$ cd your directory (Ex. desktop)
 $ mkdir folderName
 $ git init
-$ git remote add origin https://github.com/Goshen-Savvy/CMSC6950-Analyzing-Autorank.git
+$ git clone https://github.com/Goshen-Savvy/CMSC6950-Analyzing-Autorank.git
 $ git pull
 ```
 ### Create your branch
