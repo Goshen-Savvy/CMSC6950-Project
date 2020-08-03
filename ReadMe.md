@@ -53,8 +53,6 @@ $ git pull
 ```
 ### Create your branch
 
-* git branch branch_name
-
 ```
 Run
 #To call the Makefile and execute all.
