@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.31)  3 AUG 2020 02:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.31)  3 AUG 2020 12:54
 entering extended mode
 **./report.tex
 (report.tex
@@ -21,10 +21,60 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/efbox\efbox.sty"
+Package: efbox 2014/03/19 1.0 An enhanced fbox command.
+Package: efbox 2014/03/19 v1.0 An enhanced fbox command
+
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cf
+g"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.d
+ef"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys
+.sty"
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfke
+ys.code.tex"
+\pgfkeys@pathtoks=\toks15
+\pgfkeys@temptoks=\toks16
+
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfke
+ysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks17
+))))
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty
+"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty
+"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics
+.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 )
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
 Package: babel 2020/03/22 3.42 The Babel package
@@ -46,7 +96,7 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2020/03/22 3.42 Babel common definitions
 \babel@savecnt=\count175
-\U@D=\dimen135
+\U@D=\dimen137
 
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def"
 )
@@ -70,12 +120,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen136
+\@emptytoks=\toks21
+\ex@=\dimen138
 )) ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen137
+\pmbraise@=\dimen139
 ) ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
@@ -91,7 +141,7 @@ LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box45
 \strutbox@=\box46
-\big@size=\dimen138
+\big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count182
@@ -99,21 +149,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count184
 \dspbrk@lvl=\count185
-\tag@help=\toks18
+\tag@help=\toks22
 \row@=\count186
 \column@=\count187
 \maxfields@=\count188
-\andhelp@=\toks19
-\eqnshift@=\dimen139
-\alignsep@=\dimen140
-\tagshift@=\dimen141
-\tagwidth@=\dimen142
-\totwidth@=\dimen143
-\lineht@=\dimen144
-\@envbody=\toks20
+\andhelp@=\toks23
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks24
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 ) ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
@@ -122,34 +172,8 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count189
-) ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+) ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.s
 ty"
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
-)
-("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty
-"
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics
-.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
-
-("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.d
-ef"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen145
-\Gin@req@width=\dimen146
-)
-("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty
-"
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty
@@ -305,9 +329,9 @@ Package caption Info: hyperref package is loaded.
 ) ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count268
-\float@exts=\toks23
+\float@exts=\toks26
 \float@box=\box47
-\@float@everytoks=\toks24
+\@float@everytoks=\toks27
 \@floatcapt=\box48
 )
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.sty
@@ -327,7 +351,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen163
 \Gm@layouthoffset=\dimen164
 \Gm@layoutvoffset=\dimen165
-\Gm@dimlist=\toks25
+\Gm@dimlist=\toks28
 
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg
 "))
@@ -339,22 +363,22 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 ) (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.
 mkii"
@@ -364,12 +388,12 @@ mkii"
 \scratchbox=\box50
 \nofMPsegments=\count274
 \nofMParguments=\count275
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count276
 \MPscratchDim=\dimen167
 \MPnumerator=\count277
 \makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks27
+\everyMPtoPDFconversion=\toks30
 )
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf
 -base.sty"
@@ -378,7 +402,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 14.
 
 ("C:\Users\ME\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -392,9 +416,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count279
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
  (report.out) (report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
@@ -439,84 +463,65 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
-(Font)              using `OT1/cmr/m/it' instead on input line 31.
+(Font)              using `OT1/cmr/m/it' instead on input line 33.
 
 [1
 
 {C:/Users/ME/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
-[2]
-<autorank_example_code.png, id=50, 491.58656pt x 306.39468pt>
-File: autorank_example_code.png Graphic file (type png)
-<use autorank_example_code.png>
-Package pdftex.def Info: autorank_example_code.png  used on input line 52.
-(pdftex.def)             Requested size: 284.52756pt x 177.34438pt.
- [3 <./autorank_example_code.png>]
-<contents.png, id=56, 604.50844pt x 314.67563pt>
-File: contents.png Graphic file (type png)
-<use contents.png>
-Package pdftex.def Info: contents.png  used on input line 62.
-(pdftex.def)             Requested size: 312.9803pt x 162.92163pt.
-<statistical_analysis1.png, id=58, 621.82312pt x 255.20343pt>
-File: statistical_analysis1.png Graphic file (type png)
-<use statistical_analysis1.png>
-Package pdftex.def Info: statistical_analysis1.png  used on input line 69.
-(pdftex.def)             Requested size: 312.97923pt x 113.81244pt.
- [4 <./contents.png> <./statistical_analysis1.png>]
-<latex.png, id=67, 466.74374pt x 259.7203pt>
-File: latex.png Graphic file (type png)
-<use latex.png>
-Package pdftex.def Info: latex.png  used on input line 78.
-(pdftex.def)             Requested size: 426.79134pt x 237.49907pt.
- [5 <./latex.png>] [6] [7]
-<stat_auto_rank.png, id=85, 433.62pt x 104.7915pt>
+[2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 146--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--149
+
+ []
+
+<stat_auto_rank.png, id=56, 433.62pt x 104.7915pt>
 File: stat_auto_rank.png Graphic file (type png)
 <use stat_auto_rank.png>
-Package pdftex.def Info: stat_auto_rank.png  used on input line 164.
+Package pdftex.def Info: stat_auto_rank.png  used on input line 152.
 (pdftex.def)             Requested size: 426.79134pt x 103.14587pt.
- [8 <./stat_auto_rank.png>]
-<mean.png, id=92, 462.528pt x 346.896pt>
+[5 <./stat_auto_rank.png>]
+<mean.png, id=64, 462.528pt x 346.896pt>
 File: mean.png Graphic file (type png)
 <use mean.png>
-Package pdftex.def Info: mean.png  used on input line 172.
+Package pdftex.def Info: mean.png  used on input line 160.
 (pdftex.def)             Requested size: 426.79134pt x 320.11154pt.
- [9 <./mean.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-[10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
- (report.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+ [6 <./mean.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
+ (report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B3CB8F58ACA8831FE46E17E10EC6F21A;454.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+(rerunfilecheck)             Checksum: 39CEB1C1E0FAE7396B78E5409A890BBA;412.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 8441 strings out of 480931
- 132078 string characters out of 2901202
- 412390 words of memory out of 3000000
- 24144 multiletter control sequences out of 15000+200000
+ 8940 strings out of 480931
+ 145675 string characters out of 2901202
+ 426721 words of memory out of 3000000
+ 24635 multiletter control sequences out of 15000+200000
  539020 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,43p,1089b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,8n,46p,1089b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ME\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1200.pk><C:/Users/ME/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><C:/Users/ME/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
@@ -525,9 +530,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ME/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ME/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ME/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (10 pages, 241107 bytes).
+Output written on report.pdf (7 pages, 115113 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
 

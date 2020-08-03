@@ -1,4 +1,6 @@
 \documentclass[12pt]{article}
+\usepackage{efbox,graphicx}
+\efboxsetup{linecolor=black,linewidth=1pt}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amsmath}
@@ -45,39 +47,16 @@ Regardless, the correct use of Demšar guidelines is hard for non-experts in sta
 
 
 \newpage
-\section{Reproducing autorank}
-I was able to reproduce autorank by running the example code provided:
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=10 cm]{autorank_example_code.png}
-	\caption{example.py}
-\end{figure}
-\newpage
-\section{Results}
+\section{Reproducing Autorank}
+To better understand Autorank, I executed the python file (example.py) to fully comprehend how it works, what it does and how it can be of use to my project. The actual result was the same after doing the specified steps multiple times. 
+\begin{itemize}
 
-Firstly, the result of autorank shows the content of the dataset.
+\item First, import the functions from Autorank and create some data.
+\item Second, the result of the statistical analysis was displayed on the terminal.
+\item Then, Autorank generates a plot that visualizes the statistical analysis. 
+\item Lastly, Autorank can also generate a latex table with relevant results.
 
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=11 cm]{contents.png}
-	\caption{Contents of the dataset}
-\end{figure}
-
-Secondly, the statistical analysis of the dataset.
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=11 cm, height=4 cm]{statistical_analysis1.png}
-	\caption{Statistical Analysis}
-\end{figure}
-
-\newpage
-
-Lastly, it displays the latex format of the dataset.
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=15 cm]{latex.png}
-	\caption{Latex format of the dataset}
-\end{figure}
+\end{itemize}
 
 \section{Data Exploration}
 \subsection{Dataset Summary}
@@ -100,11 +79,10 @@ This dataset has 17 columns and 11163 rows. Below is a detailed description of e
 \item	campaign: number of contacts performed during this campaign and for this client 
 \item pdays: number of days that passed by after the client was last contacted from a previous campaign 
 \item	previous: number of contacts performed before this campaign and for this client 
-\item outcome: outcome of the previous marketing campaign (failure, non-existent, success)
+\item poutcome: outcome of the previous marketing campaign (failure, non-existent, success)
 \item	deposit: has the client subscribed a term deposit? (yes or no)
 \end{itemize}
 
-\newpage
 \subsection{Attributes Types}
 
 \begin{table}[h!]
@@ -157,11 +135,21 @@ This dataset has 17 columns and 11163 rows. Below is a detailed description of e
 
 \newpage
 \subsection{Implementing autorank in my dataset}
-Banks use marketing campaigns as tools to focus on customer needs and their overall satisfaction strategically. However, different variables determine whether a marketing campaign will be successful or not. One of such avenue to develop a questionnaire during calls. Since duration of the call is the feature that most positively correlates with whether a potential client will open a term deposit or not. 
+Banks use marketing campaigns as tools to focus on customer needs and their overall satisfaction strategically. Improving customer experience requires truly understanding your customers and relating to them in ways that they understand. This includes taking a 360-degree view of your banking customer and leveraging the gold mine of data available to you today, including: 
+\begin{itemize}
+
+\item Core customer information including contact and location data
+\item Additional experiential customer information gathered from all stages of the customer life-cycle.
+\item Transaction information including checking, savings and credit card transactions; loan draws and repayments; investment positions and balances. 
+
+\end{itemize}
+Banks of every size are drenched with data, but harnessing and leveraging that organizational data for more effective banking operations has always been a challenge. In the current market, it’s more important than ever that you understand customers, products, channels and pricing – all to ensure it is tailored towards product offerings to customers while maximizing the potential revenue.\\\\
+Using transaction and core customer information, you can determine the life stages and family dynamics that allow for better product bundling and targeted marketing for your customers.\\\\
+Autorank was used to achieve a quick statistical analysis of the duration of calls made to different clients with different marital statuses. Banks will find this helpful as it will aid them to design different deposit package that benefits everyone.
 
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=15 cm]{stat_auto_rank.png}
+\efbox{	\includegraphics[width=15 cm]{stat_auto_rank.png}}
 	\caption{Autorank Plot}
 \end{figure}
 
@@ -170,12 +158,12 @@ The plot shows the number of contacts with different subset of customers during 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=15 cm]{mean.png}
-	\caption{Marital Status/Duration}
+	\caption{Bar Plot of the }
 \end{figure}
 
 
 \section{Conclusion}
-The goal of Autorank is to simplify the statistical analysis for non-experts. Autorank takes care of all of the above with a single function call. Additional functions allow the generation of appropriate plots, result tables, and even of a complete latex document. All that is required is the data about the populations is in a Pandas dataframe.Overall, autorank statistical analysis involves evaluating and then summarizing the data into a mathematical form that was easy to implement in my dataset. 
+The goal of Autorank is to simplify the statistical analysis for non-experts. Autorank takes care of all of the above with a single function call. Additional functions allow the generation of appropriate plots, result tables, and even of a complete latex document. All that is required is the data about the populations is in a Pandas dataframe.Overall, Autorank statistical analysis involves evaluating and then summarizing the data into a mathematical form that was easy to implement in my dataset. 
 \newpage
 
 \begin{thebibliography}{999}

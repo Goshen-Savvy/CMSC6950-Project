@@ -1,8 +1,7 @@
 \BOOKMARK [1][-]{section.1}{ Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Reproducing autorank}{}% 2
-\BOOKMARK [1][-]{section.3}{Results}{}% 3
-\BOOKMARK [1][-]{section.4}{Data Exploration}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Dataset Summary}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Attributes Types}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.3}{Implementing autorank in my dataset}{section.4}% 7
-\BOOKMARK [1][-]{section.5}{Conclusion}{}% 8
+\BOOKMARK [1][-]{section.2}{Reproducing Autorank}{}% 2
+\BOOKMARK [1][-]{section.3}{Data Exploration}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Dataset Summary}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Attributes Types}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Implementing autorank in my dataset}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 7
