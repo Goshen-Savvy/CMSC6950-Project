@@ -57,8 +57,7 @@ $ pip install kaggle
 $ cd desktop
 $ mkdir folderName
 $ git init
-$ git remote add origin 
-    https://github.com/Goshen-Savvy/CMSC6950-Analyzing-Autorank.git
+$ git remote add origin https://github.com/Goshen-Savvy/CMSC6950-Analyzing-Autorank.git
 $ git pull
 ```
 ### Create your branch

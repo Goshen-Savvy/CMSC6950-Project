@@ -1,9 +1,12 @@
-report.pdf:	report.tex one.png
+report.pdf:	report.tex mean.png stat_auto_rank.png
 	pdflatex	$<
 
 #Statistics
-one.png:	bank.csv new_autorank.py
+stat_auto_rank.png:	bank.csv new_autorank.py
 	python3 new_autorank.py
+
+mean.png:	bank.csv plot.py
+	python3 plot.py
 
 #Dataset
 bank.csv:
@@ -15,7 +18,8 @@ bank.csv:
 
 clean:	almost_clean
 	rm	report.pdf
-	rm	one.png 
+	rm	mean.png
+	rm	stat_auto_rank.png 
 	
 almost_clean:
 	pdflatex	-c
