@@ -16,7 +16,7 @@ Project was created with the following:
 ## Dependencies
 ### Installation
 To run this project, install the following locally using pip or pip3:
- pip3 install requirements.txt
+* pip3 install requirements.txt
 
 ### Python Packages
 * Pandas
