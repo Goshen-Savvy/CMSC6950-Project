@@ -36,13 +36,15 @@ To run this project, install the following:
 * autorank
 ```
 
-### Unforseen Technical Issues
+### Do the following to reproduce my work:
 ```
 * To download datasets from kaggle using wget or curl:
     * Create an account on kaggle
-    * Go to <b>my account</b> and download the kaggle's API
-    * From the terminal copy or move the API (kaggle.json) in the download directory to the home directory ('Ex. anneodeh@Awesome-God:')
-        * home directory -> .kaggle -> kaggle.json file
+    * Go to my account and download the kaggle's API
+    * From the terminal copy or move the API (kaggle.json) in the download directory to the home directory ('Ex. anne@Awesome-God:')
+        * home directory -> .kaggle -> kaggle.json file 
+        * anne@Awesome-God:cd .kaggle
+        * ls .kaggle --> kaggle.json
             * $ kaggle datasets download janiobachmann/bank-marketing-dataset
             * $ unzip bank-marketing-dataset.zip
             * $ rm bank-marketing-dataset.zip 
