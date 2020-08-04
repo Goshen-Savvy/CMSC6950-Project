@@ -41,7 +41,7 @@ To run this project, install the following:
 * To download datasets from kaggle using wget or curl:
     * Create an account on kaggle
     * Go to <b>my account</b> and download the kaggle's API
-    * From the terminal copy or move the API (kaggle.json) in the download directory to the home directory
+    * From the terminal copy or move the API (kaggle.json) in the download directory to the home directory ('Ex. anneodeh@Awesome-God:')
         * home directory -> .kaggle -> kaggle.json file
             * $ kaggle datasets download janiobachmann/bank-marketing-dataset
             * $ unzip bank-marketing-dataset.zip
