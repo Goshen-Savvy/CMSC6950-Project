@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+\usepackage{efbox,graphicx}
+\efboxsetup{linecolor=black,linewidth=1pt}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{caption,float}
+\usepackage[vmargin=3cm,hmargin=3cm]{geometry}
+
+\begin{document}
+
+{\centering
+
+\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} 
+\rule{\textwidth}{0.4pt}\\[\baselineskip] 
+{\LARGE Autorank - a simple python package}
+\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+\rule{\textwidth}{1.6pt}\\[\baselineskip] 
+
+\vspace{20mm} %5mm vertical space
+\scshape % Small caps
+CMSC 6950 - Computer Based Research Tools and Applications \\ [\baselineskip]
+Term Project \\[\baselineskip] 
+6th August, 2020 \\[\baselineskip] 
+\vspace{20mm} %5mm vertical space
+Submitted by \\[\baselineskip]
+{\Large Anne Odeh \par}
+\vfill
+{\itshape Memorial University of Newfoundland \\ St. John's, Canada.\par} 
+}
+
+\newpage
+
+{\centering
+  \section*{Abstract}
+}
+Reproducibility is seen as one of the pillars of the entire scientific method, a criterion on which to measure the efficacy of an experiment. This paper presents how autorank can be reproduced by understanding how it works and the necessary tools that are required to mimic its exact work. \\\\
+
+
+\section{ Introduction}
+Autorank is a simple Python package with one task: simplify the comparison between (multiple) paired populations. This is, for example, required if the performance different machine learning algorithms or simulations should be compared on multiple data sets. The performance measures on each data set are then the paired samples, the difference in the central tendency (e.g., the mean or median) can be used to rank the different algorithms. This problem is not new and how such tests could be done was already described in 2006 in the well-known article Janez Demšar. 2006. Statistical Comparisons of Classifiers over Multiple Data Sets. J. Mach. Learn. Res. 7 (December 2006), 1–30.\\\\
+Regardless, the correct use of Demšar guidelines is hard for non-experts in statistics. Correct use of the guidelines requires the decision of whether a paired t-test, a Wilcoxon's rank sum test, repeated measures ANOVA with Tukey's HSD as post-hoc test, or Friedman's tests and Nemenyi's post-hoc test to determine an answer to the question if there are differences. For this, the distribution of the populations must be analyzed with the Shapiro-Wilk test for normality and, depending on the normality with Levene's test or Bartlett's tests for homogeneity of the data. All this is already quite complex. This does not yet account for the adjustment of the significance level in case of repeated tests to achieve the desired family-wise significance. Additionally, not only the tests should be conducted, but good reporting of the results also include confidence intervals, effect sizes, and the decision of whether it is appropriate to report the mean value and standard deviation, or whether the median value and the median absolute deviation is more appropriate.
+
+
+\newpage
+\section{Reproducing Autorank}
+To better understand Autorank, I executed the python file (example.py) to fully comprehend how it works, what it does and how it can be of use to my project. The actual result was the same after doing the specified steps multiple times. 
+\begin{itemize}
+
+\item First, import the functions from Autorank and create some data.
+\item Second, the result of the statistical analysis was displayed on the terminal.
+\item Then, Autorank generates a plot that visualizes the statistical analysis. 
+\item Lastly, Autorank can also generate a latex table with relevant results.
+
+\end{itemize}
+
+\section{Data Exploration}
+\subsection{Dataset Summary}
+This dataset has 17 columns and 11163 rows. Below is a detailed description of each column: 
+
+\begin{itemize}
+
+\item age: the age of group of ban customers
+\item	job: type of job (admin., blue collar, entrepreneur, housemaid, management, retired, 'self-employed', 'services', 'student', 'technician', 'unemployed', 'unknown')
+\item	marital: marital status (divorced, married, single, unknown; note: divorced means divorced or widowed)
+\item	education: (primary, secondary, tertiary, and unknown)
+\item	default: has credit in default? (no, yes, unknown)
+\item	housing: has housing loan? (no, yes, unknown)
+\item	loan: has personal loan? (no, yes, unknown)
+\item	balance: Balance of the individual
+\item	contact: contact communication type (cellular, telephone)
+\item	month: last contact month of year 
+\item	day: last contact day of the week 
+\item	duration: last contact duration, in seconds (numeric). 
+\item	campaign: number of contacts performed during this campaign and for this client 
+\item pdays: number of days that passed by after the client was last contacted from a previous campaign 
+\item	previous: number of contacts performed before this campaign and for this client 
+\item poutcome: outcome of the previous marketing campaign (failure, non-existent, success)
+\item	deposit: has the client subscribed a term deposit? (yes or no)
+\end{itemize}
+
+\subsection{Attributes Types}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+			\hline
+		\textbf{Attributes}& \textbf{Types}\\
+		\hline
+			\hline
+	age	&numeric\\
+		\hline
+	job	&categorical\\
+		\hline
+	marital&	categorical\\
+		\hline
+	education&	categorical\\
+		\hline
+	default	&categorical\\
+		\hline
+	housing	&categorical\\
+		\hline
+	loan	&categorical\\
+		\hline
+	contact	&categorical\\
+		\hline
+	balance	&numeric\\
+		\hline
+	contact	&unknown\\
+		\hline
+	month&	categorical\\
+		\hline
+	day	&numeric\\
+	    \hline
+	duration&	numeric\\
+		\hline
+	campaign&	numeric\\
+		\hline
+	pdays	&numeric\\
+		\hline
+	previous&	numeric\\
+		\hline
+	poutcome	&unknown\\
+		\hline
+	deposit&	categorical\\
+		\hline
+	\end{tabular}
+
+	\caption{Attributes Types}
+\end{table}
+
+\newpage
+\subsection{Implementing autorank in my dataset}
+Banks use marketing campaigns as tools to focus on customer needs and their overall satisfaction strategically. Improving customer experience requires truly understanding your customers and relating to them in ways that they understand. This includes taking a 360-degree view of your banking customer and leveraging the gold mine of data available to you today, including: 
+\begin{itemize}
+
+\item Core customer information including contact and location data
+\item Additional experiential customer information gathered from all stages of the customer life-cycle.
+\item Transaction information including checking, savings and credit card transactions; loan draws and repayments; investment positions and balances. 
+
+\end{itemize}
+Banks of every size are drenched with data, but harnessing and leveraging that organizational data for more effective banking operations has always been a challenge. In the current market, it’s more important than ever that you understand customers, products, channels and pricing – all to ensure it is tailored towards product offerings to customers while maximizing the potential revenue.\\\\
+Using transaction and core customer information, you can determine the life stages and family dynamics that allow for better product bundling and targeted marketing for your customers.\\\\
+Autorank was used to achieve a quick statistical analysis of the duration of calls made to different clients with different marital statuses. Banks will find this helpful as it will aid them to design different deposit package that benefits everyone.
+
+\begin{figure}[!htbp]
+	\centering
+\efbox{	\includegraphics[width=15 cm]{stat_auto_rank.png}}
+	\caption{Autorank Plot}
+\end{figure}
+
+\newpage
+The plot shows the number of contacts with different subset of customers during the campaign.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=15 cm]{mean.png}
+	\caption{Bar Plot of the }
+\end{figure}
+
+
+\section{Conclusion}
+The goal of Autorank is to simplify the statistical analysis for non-experts. Autorank takes care of all of the above with a single function call. Additional functions allow the generation of appropriate plots, result tables, and even of a complete latex document. All that is required is the data about the populations is in a Pandas dataframe.Overall, Autorank statistical analysis involves evaluating and then summarizing the data into a mathematical form that was easy to implement in my dataset. 
+\newpage
+
+\begin{thebibliography}{999}
+
+%reference 1
+	\bibitem[Martinez, J. (2017)]{ref-software}
+	Martinez, J. (2017). Bank Marketing Dataset. Retrieved July 31, 2020, from {\url{https://www.kaggle.com/janiobachmann/bank-marketing-dataset}}
+
+   
+%reference 2
+	\bibitem[Herbold, S. (2020)]{ref-softwaree}
+	S. Herbold (2020). Autorank: A Python package for automated ranking of classifiers. Journal of Open Source Software. https://doi.org/10.21105/joss.02173
+
+
+\end{thebibliography}
+
+\end{document}
