@@ -4,7 +4,8 @@ report.pdf:	report/report.tex mean.png stat_auto_rank.png
 #Statistics
 stat_auto_rank.png:	bank.csv new_autorank.py
 	python3 new_autorank.py
-
+	
+#mean distribution
 mean.png:	bank.csv plot.py
 	python3 plot.py
 
@@ -17,10 +18,13 @@ bank.csv:
 .PHONY:	clean	almost_clean	
 
 clean:	almost_clean
-	rm	report.pdf
-	rm	mean.png
-	rm	stat_auto_rank.png 
+	rm *.pdf
+	rm *.png
+	rm *.csv
+	rm *.out
+	rm *.aux
+	rm *.log
 	
 almost_clean:
-	pdflatex	-c
+	#pdflatex -c
 
