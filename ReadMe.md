@@ -44,7 +44,8 @@ To run this project, install the following:
 ```
 * To download datasets from kaggle using wget or curl:
     * Create an account on kaggle
-    * Go to my account and download the kaggle's API
+    * Find my account and download the kaggle's API
+        * Kaggle -> My account -> API -> kaggle.json
     * From the terminal copy or move the API (kaggle.json) in the download directory to the home directory ('Ex. anne@Awesome-God:')
         * home directory -> .kaggle -> kaggle.json file 
         * anne@Awesome-God: cd .kaggle
