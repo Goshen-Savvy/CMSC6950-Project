@@ -4,8 +4,6 @@ I used two third-party packages. Below are the relevant links for your informati
 * [Autorank](https://pypi.org/project/autorank/#description)
 * [Missingno](https://github.com/ResidentMario/missingno)
 
-## Project Scope
-The project is focused on reproducing the implementation of autorank.
 
 ## Project Task
 The ease of reproducing the project.
@@ -51,9 +49,7 @@ To run this project, install the following:
         * home directory -> .kaggle -> kaggle.json file 
         * anne@Awesome-God: cd .kaggle
         * ls .kaggle --> kaggle.json
-            * $ kaggle datasets download janiobachmann/bank-marketing-dataset
-            * $ unzip bank-marketing-dataset.zip
-            * $ rm bank-marketing-dataset.zip 
+             
 * To access the machine learning model:
     * pip3 install --force-reinstall pip==20.0.2
     * pip3 install xgboost or python3 -m pip install xgboost
@@ -63,10 +59,7 @@ To run this project, install the following:
 ### Create the local repository
 
 ```
-$ cd your directory (Ex. desktop)
-$ mkdir folderName
-$ git init
-$ git clone https://github.com/Goshen-Savvy/CMSC6950-Analyzing-Autorank.git
+$ git clone https://github.com/Goshen-Savvy/CMSC6950-Project.git
 $ git pull
 ```
 ### Execute the project
