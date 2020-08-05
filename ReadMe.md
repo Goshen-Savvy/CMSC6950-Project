@@ -1,8 +1,8 @@
 ## Project Title
 ### Using Autorank, Missingno and Machine learning algorithm to predict bank deposit from clients.
 I used two third-party packages. Below are the relevant links for your information.
-[Autorank](https://pypi.org/project/autorank/#description)
-[Missingno](https://github.com/ResidentMario/missingno)
+* [Autorank](https://pypi.org/project/autorank/#description)
+* [Missingno](https://github.com/ResidentMario/missingno)
 
 ## Project Scope
 The project is focused on reproducing the implementation of autorank.
