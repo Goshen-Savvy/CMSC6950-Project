@@ -29,11 +29,14 @@ To run this project, install the following:
 
 ### Python Packages
 ```
-* Pandas
-* Numpy
-* Seaborn	
-* Matplotlib
+* pandas
+* numpy
+* seaborn	
+* matplotlib
+* scikit learn
+* xgboost
 * autorank
+* missingno
 ```
 
 ### Do the following to reproduce my work:
@@ -43,11 +46,14 @@ To run this project, install the following:
     * Go to my account and download the kaggle's API
     * From the terminal copy or move the API (kaggle.json) in the download directory to the home directory ('Ex. anne@Awesome-God:')
         * home directory -> .kaggle -> kaggle.json file 
-        * anne@Awesome-God:cd .kaggle
+        * anne@Awesome-God: cd .kaggle
         * ls .kaggle --> kaggle.json
             * $ kaggle datasets download janiobachmann/bank-marketing-dataset
             * $ unzip bank-marketing-dataset.zip
             * $ rm bank-marketing-dataset.zip 
+* To access the machine learning model:
+    * pip3 install --force-reinstall pip==20.0.2
+    * pip3 install xgboost or python3 -m pip install xgboost
 ```
 
 ## Work-Flow
