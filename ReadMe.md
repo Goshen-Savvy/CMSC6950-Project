@@ -42,7 +42,7 @@ To run this project, install the following:
 
 ### Do the following to reproduce my work:
 ```
-* To download datasets from kaggle using wget or curl:
+* To download datasets from kaggle using kaggle:
     * Create an account on kaggle
     * Find my account and download the kaggle's API
         * Kaggle -> My account -> API -> kaggle.json
@@ -61,7 +61,6 @@ To run this project, install the following:
 
 ```
 $ git clone https://github.com/Goshen-Savvy/CMSC6950-Project.git
-$ git pull
 ```
 ### Execute the project
 
@@ -71,8 +70,6 @@ Run
 $ make
 #To removing all the downloaded data and complied files
 $ make clean
-#To generate files by file name (Ex. report.pdf).
-$ make report.pdf
 ```
 
 ## Tasks completed      
