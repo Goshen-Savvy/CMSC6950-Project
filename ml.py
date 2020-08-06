@@ -8,11 +8,14 @@ import xgboost as xgb
 from sklearn.model_selection import train_test_split #split
 from sklearn.metrics import accuracy_score #metrics
 
-df = pd.read_csv('bank.csv')
+df = pd.read_csv('report/bank.csv')
 
 def data_set():
     msno.matrix(df)
+    plt.ylabel('Records in the dataset')
+    plt.xlabel('Bank Dataset')
     plt.savefig('missing_data.png')
+    
 data_set()
 
 
