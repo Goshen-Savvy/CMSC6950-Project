@@ -8,7 +8,7 @@ import xgboost as xgb
 from sklearn.model_selection import train_test_split #split
 from sklearn.metrics import accuracy_score #metrics
 
-df = pd.read_csv('report/bank.csv')
+df = pd.read_csv('bank.csv')
 
 def data_set():
     msno.matrix(df)

@@ -1,4 +1,4 @@
-report.pdf:	report/report.tex mean.png stat_auto_rank.png missing_data.png
+report.pdf:	report/report.tex mean.png stat_auto_rank.png missing_data.png marital_balance.png duration.png
 	pdflatex	$<
 
 #Statistics
@@ -11,7 +11,15 @@ mean.png:	bank.csv plot.py
 
 #missing data
 missing_data.png:	bank.csv ml.py
-	python3 ml.py	
+	python3 ml.py
+
+#missing data
+marital_balance.png:	bank.csv my_plot.py
+	python3 my_plot.py
+
+#distribution of calls
+duration.png:	duration.py	
+	python3 duration.py	
 
 #Dataset
 bank.csv:
